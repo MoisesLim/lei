@@ -1,0 +1,18 @@
+/* Define o estilo do favicon */
+.ico {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Define o estilo do favicon em diferentes navegadores */
+  .ico {
+    width: 50px;
+  }
+  
+  /* Define o estilo do favicon em dispositivos móveis */
+  @media (max-width: 480px) {
+    .ico {
+      width: 16px;
+      height: auto;
+    }
+  }
